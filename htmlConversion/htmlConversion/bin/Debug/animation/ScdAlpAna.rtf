@@ -1,0 +1,120 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17 <property name="Columns" type="complex"><propertybag><property name="0" type="complex"><propertybag><property name="Bindings">&lt;in fields="$column$.Value" xforms="$column$.xfHideEmpty" properties="style.display"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;in fields="$column$.Value" xforms="$column$.xfEmpty" properties="currentValue"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;in fields="$column$.Quality" properties="quality"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;out properties="currentValue" fields="$column$.Value"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;in fields="$column$.SecurityLevel" properties="SecurityLevel"/&gt;</property>\par
+<property name="Content">&lt;TEXTAREA style="POSITION: absolute; BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 1px; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: transparent; FONT-STYLE: normal; PADDING-LEFT: 1px; WIDTH: 100%; PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WORD-WRAP: normal; BORDER-TOP-STYLE: none; HEIGHT: 100%; COLOR: #000000; FONT-SIZE: 10pt; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; TOP: 0px; FONT-WEIGHT: normal; PADDING-TOP: 1px; BEHAVIOR: url(#HDXAlphaBehavior); LEFT: 0px; ROWS: 1" class=hsc.alpha.1 tabIndex=0 hdxproperties="borderStyle:None;borderWidth:1px;fillColor:transparent;lineColor:black;numberOfChars:24;numericDisplayFormat:%s;textColor:#000000;" unbound="true"&gt;Parameter&lt;/TEXTAREA&gt;</property>\par
+<property name="FieldObjects" type="complex"><propertybag><property name="0" type="complex"><propertybag><property name="Instance" type="complex"><propertybag><property name="AddressFlags">128</property>\par
+<property name="AddressType">1</property>\par
+<property name="CalloutElement"></property>\par
+<property name="FileRefFile">11</property>\par
+<property name="FileRefFlags">512</property>\par
+<property name="FileRefFormat">2</property>\par
+<property name="FileRefRecord">1</property>\par
+<property name="FileRefWord">33</property>\par
+<property name="ObjectType">0</property>\par
+<property name="ParameterFormat">0</property>\par
+<property name="PresentationParamName">NAME</property>\par
+<property name="PresentationType">5</property>\par
+<property name="RepeatCount">1</property>\par
+<property name="RepeatField">2</property>\par
+<property name="RepeatValueBias">0</property>\par
+<property name="SecurityLevel">2</property>\par
+<property name="UpdatePeriod">0</property>\par
+<property name="version">1.3</property>\par
+</propertybag></property>\par
+<property name="Name">dso1</property>\par
+<property name="Type">HMIPage.Generic</property>\par
+</propertybag></property>\par
+<property name="Count">1</property>\par
+</propertybag></property>\par
+<property name="Fields">&lt;field id="$column$.Value" object="dso1" property="Value" /&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;field id="$column$.Quality" object="dso1" property="Quality" /&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;field id="$column$.SecurityLevel" object="dso1" property="SecurityLevel" /&gt;</property>\par
+<property name="Hidden">0</property>\par
+<property name="Name">Point</property>\par
+<property name="Resizable">1</property>\par
+<property name="Title">PointName</property>\par
+<property name="Type">Alphanumeric</property>\par
+<property name="Width">60</property>\par
+<property name="XForms">&lt;defaultValue id="$column$.xfEmpty" value="" type="string" /&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;script id="$column$.xfHideEmpty" language="VBScript"&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab If IsEmpty(Value) Then\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab Return = "none"\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab Else\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab Return = ""\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab End If\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;/script&gt;</property>\par
+</propertybag></property>\par
+<property name="1" type="complex"><propertybag><property name="Bindings">&lt;in fields="$column$.Value" xforms="$column$.xfHideEmpty" properties="style.display"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;in fields="$column$.Value" xforms="$column$.xfEmpty" properties="currentValue"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;in fields="$column$.Quality" properties="quality"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;out properties="currentValue" fields="$column$.Value"/&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;in fields="$column$.SecurityLevel" properties="SecurityLevel"/&gt;</property>\par
+<property name="Content">&lt;TEXTAREA style="POSITION: absolute; BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: transparent; FONT-STYLE: normal; WIDTH: 100%; FONT-FAMILY: Arial; WORD-WRAP: normal; BORDER-TOP-STYLE: none; HEIGHT: 100%; COLOR: #000000; FONT-SIZE: 10pt; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; TOP: 0px; FONT-WEIGHT: normal; BEHAVIOR: url(#HDXAlphaBehavior); LEFT: 0px; ROWS: 1" class=hsc.alpha.1 tabIndex=0 hdxproperties="fillColor:transparent;lineColor:black;numberOfChars:40;numericDisplayFormat:%s;textColor:#000000;" unbound="true"&gt;Parameter Name&lt;/TEXTAREA&gt;</property>\par
+<property name="FieldObjects" type="complex"><propertybag><property name="0" type="complex"><propertybag><property name="Instance" type="complex"><propertybag><property name="AddressFlags">128</property>\par
+<property name="AddressType">1</property>\par
+<property name="CalloutElement"></property>\par
+<property name="FileRefFile">11</property>\par
+<property name="FileRefFlags">512</property>\par
+<property name="FileRefFormat">1</property>\par
+<property name="FileRefRecord">1</property>\par
+<property name="FileRefWord">97</property>\par
+<property name="ObjectType">0</property>\par
+<property name="ParameterFormat">0</property>\par
+<property name="PresentationPointWord">33</property>\par
+<property name="PresentationType">7</property>\par
+<property name="RepeatCount">1</property>\par
+<property name="RepeatField">2</property>\par
+<property name="RepeatValueBias">0</property>\par
+<property name="SecurityLevel">2</property>\par
+<property name="UpdatePeriod">0</property>\par
+<property name="version">1.3</property>\par
+</propertybag></property>\par
+<property name="Name">dso1</property>\par
+<property name="Type">HMIPage.Generic</property>\par
+</propertybag></property>\par
+<property name="Count">1</property>\par
+</propertybag></property>\par
+<property name="Fields">&lt;field id="$column$.Value" object="dso1" property="Value" /&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;field id="$column$.Quality" object="dso1" property="Quality" /&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;field id="$column$.SecurityLevel" object="dso1" property="SecurityLevel" /&gt;</property>\par
+<property name="Hidden">0</property>\par
+<property name="Name">Parameter</property>\par
+<property name="Resizable">1</property>\par
+<property name="Title">Parameter</property>\par
+<property name="Type">Alphanumeric</property>\par
+<property name="Width">60</property>\par
+<property name="XForms">&lt;defaultValue id="$column$.xfEmpty" value="" type="string" /&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;script id="$column$.xfHideEmpty" language="VBScript"&gt;\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab If IsEmpty(Value) Then\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab Return = "none"\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab Else\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab Return = ""\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab End If\par
+\tab\tab\tab\tab\tab\tab\tab\tab &lt;/script&gt;</property>\par
+</propertybag></property>\par
+<property name="Count">2</property>\par
+<property name="ShowRowNumber">0</property>\par
+</propertybag></property>\par
+<property name="Scroller" type="complex"><propertybag><property name="AddressFlags">1</property>\par
+<property name="AddressType">2</property>\par
+<property name="CalloutElement"></property>\par
+<property name="IndexRefOffset">0</property>\par
+<property name="IndexRefType">2</property>\par
+<property name="ObjectType">0</property>\par
+<property name="ParameterFormat">0</property>\par
+<property name="PresentationType">11</property>\par
+<property name="ScrollbarFile">0</property>\par
+<property name="ScrollbarMax">32</property>\par
+<property name="ScrollbarMin">1</property>\par
+<property name="ScrollbarVisible">0</property>\par
+<property name="SecurityLevel">2</property>\par
+<property name="UpdatePeriod">0</property>\par
+<property name="version">1.3</property>\par
+</propertybag></property>\par
+<property name="ScrollerType">DOTable.FileScroller</property>\par
+<property name="version">1.2</property>\par
+\par
+}
