@@ -1,6 +1,6 @@
-# Project Title
+# Html Conversion tool
 
-One Paragraph of project description goes here
+Make use of HTML agility package and epplus to read HTML file into specfic excel format.
 
 ## Getting Started
 
